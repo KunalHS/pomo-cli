@@ -1,7 +1,15 @@
 package flags
 
-import "fmt"
+import (
+	"flag"
+	"fmt"
+)
 
 func Help() {
-	fmt.Println("This is the help screen, I will populate it later!")
+	fmt.Println("\nWelcome to Pomo — a CLI-based Pomodoro timer!\n")
+	fmt.Println("Usage:")
+	fmt.Println("  pomo [flags]\n")
+	fmt.Println("Options:")
+	flag.PrintDefaults()
+	fmt.Println("")
 }
