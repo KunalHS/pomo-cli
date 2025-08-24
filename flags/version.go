@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-const versionString = "v0.1.2-beta"
+const versionString = "v0.1.3-beta"
 
 // Implementation for the version flag.
 func Version() {
